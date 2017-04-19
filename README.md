@@ -1,14 +1,16 @@
-#X-plateselect Ò»¿îºÃ¿´µÄselect²å¼ş
+X-plateselect å¥½çœ‹çš„selectæ’ä»¶
+-
+[demo](http://princekin.tjxuechuang.com/projects/xplateselect/index.html)
 
 	<div class="XPlateSelect-wrapper" style="left:200px;top:100px;">
     <div class="XPlateSelect-btn"></div>
     <div class="XPlateSelect-plate">
-        <div class="XPlateSelect-option" data-value="ê°Ñ©Ò°"><span>ê°Ñ©Ò°</span></div>
-        <div class="XPlateSelect-option" data-value="ÑîÔ¨²ß"><span>ÑîÔ¨²ß</span></div>
-        <div class="XPlateSelect-option" data-value="ÎäµÇ¿Æ"><span>ÎäµÇ¿Æ</span></div>
-        <!--<div class="XPlateSelect-option" data-value="¸ğĞù"><span>¸ğĞù</span></div>
-        <div class="XPlateSelect-option" data-value="º«ÇåÎŞ"><span>º«ÇåÎŞ</span></div>
-        <div class="XPlateSelect-option" data-value="ÀõĞ¡Ñò"><span>ÀõĞ¡Ñò</span></div>-->
+        <div class="XPlateSelect-option" data-value="ï¿½Ñ©Ò°"><span>ï¿½Ñ©Ò°</span></div>
+        <div class="XPlateSelect-option" data-value="ï¿½ï¿½Ô¨ï¿½ï¿½"><span>ï¿½ï¿½Ô¨ï¿½ï¿½</span></div>
+        <div class="XPlateSelect-option" data-value="ï¿½ï¿½Ç¿ï¿½"><span>ï¿½ï¿½Ç¿ï¿½</span></div>
+        <!--<div class="XPlateSelect-option" data-value="ï¿½ï¿½ï¿½ï¿½"><span>ï¿½ï¿½ï¿½ï¿½</span></div>
+        <div class="XPlateSelect-option" data-value="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"><span>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</span></div>
+        <div class="XPlateSelect-option" data-value="ï¿½ï¿½Ğ¡ï¿½ï¿½"><span>ï¿½ï¿½Ğ¡ï¿½ï¿½</span></div>-->
     </div>
 	</div>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -16,7 +18,7 @@
 	<script>
 		$(function(){
 			var Plate=$(".XPlateSelect-wrapper").XPlateSelect({
-				value:"ÎäµÇ¿Æ"
+				value:"ï¿½ï¿½Ç¿ï¿½"
 			});
 			Plate.Plate.on("change",function(){
 				alert(Plate.getValue())
